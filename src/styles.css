@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.currentTurn {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2em;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  height: 10vh;
+}
+
+.cardButton {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1.5em;
+}
+
+.cardButton:disabled {
+  color: black;
+}
+
+.highlightedCardButton {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 192, 31, 0.432);
+  border: 1px solid black;
+  font-size: 1.5em;
+}
